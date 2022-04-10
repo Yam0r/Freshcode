@@ -1,0 +1,32 @@
+/*селектор{
+    свойство1:значение1;
+    свойство2:значение2;
+}*/
+.p1{
+    color: #0000ff;
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: 600px; /*толщана normal-400, bold-600/800*/
+    font-style:italic;
+    background-color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 9px; /*расстояние между буквами*/
+    word-spacing: 10px; /*расстояние между словами*/
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 32;
+    color: #0000ff;
+    background-color: yellow;
+    text-transform: uppercase;
+    
+}
+.bgg{
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: yellow;
+    background-color: blue;
+}
