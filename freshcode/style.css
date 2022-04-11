@@ -1,0 +1,56 @@
+/*селектор{
+    свойство1:значение1;
+    свойство2:значение2;
+}*/
+li{
+    margin: 10px;
+    padding: 2px;
+    font-size: 40px;
+    border: 2px solid red;
+    
+}
+.cardContainer{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+}
+img{
+    border-radius: 50%;
+}
+.photoContainer{
+    margin: 10px;
+    box-sizing: border-box;
+    background-size: cover; /**/
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 240px;
+    border-radius: 50%;
+
+}
+
+.infoContainer{
+    border: 1px solid gray;
+
+}
+.userName{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.userJob{
+    font-size: 25px;
+    color: gray;
+}
+
+.buttonStyle{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    color: black;
+    background-color:cornflowerblue;
+    text-align:center;
+}
