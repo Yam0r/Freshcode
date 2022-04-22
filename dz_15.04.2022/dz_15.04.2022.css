@@ -1,10 +1,11 @@
-h1{
+h1.Beach{
     margin: 0px;
 }
 .center{
     margin: 10px;
 }
 .Beach{
+    display: block;
     font-family: Arial;
     font-weight:bold;
     color: rgb(185, 142, 87);
@@ -23,7 +24,7 @@ h1{
     border: 3px solid burlywood;
     border-radius: 5px;
     width: 100px;
-    margin-left: 45%;
+    margin: 0 auto;
     transition: .1s;
 }
 .button:hover {
@@ -32,9 +33,6 @@ h1{
     transition: .1s;
     border-radius: 50%;
 }
-
-
-
 
 .body{
     font-family: Arial;
