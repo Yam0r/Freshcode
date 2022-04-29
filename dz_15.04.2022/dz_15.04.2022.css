@@ -48,3 +48,14 @@ h1.Beach{
     text-align: center;
     color:rgb(156, 103, 34);
 }
+
+.flex{
+    font-size: 15px;
+    font-family: Arial;
+    display: flex;
+    padding:5px;
+}
+.flex .brown{
+    color:#fff;
+    background-color:rgb(156, 103, 34);
+}

@@ -1,56 +1,39 @@
-/*селектор{
-    свойство1:значение1;
-    свойство2:значение2;
-}*/
-li{
-    margin: 10px;
-    padding: 2px;
-    font-size: 40px;
-    border: 2px solid red;
-    
+body{
+    background: rgb(20, 114, 191);
 }
-.cardContainer{
-    border-radius: 10px;
-    border: 2px solid black;
+.header {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpapershome.ru/images/wallpapers/gori-2560x1440-4k-hd-zima-sneg-12589.jpg");
+}
+
+.CardContainer{
+    align-items: center;
+    font-family: arial;
+    box-shadow: 15px;
     width: 400px;
     height: 600px;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
 }
-img{
+
+.UserName h1{
+    margin: 0px;
+}
+.UserName h3{
+    margin: 0px;
+}
+
+.UserPhoto > img{
+    align-items: center;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    background: #fff;
 }
-.photoContainer{
-    margin: 10px;
-    box-sizing: border-box;
-    background-size: cover; /**/
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 240px;
-    border-radius: 50%;
+.Button{
+    width: 50px;
 
-}
-
-.infoContainer{
-    border: 1px solid gray;
-
-}
-.userName{
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-}
-
-.userJob{
-    font-size: 25px;
-    color: gray;
-}
-
-.buttonStyle{
-    margin-left: 100px;
-    border: 1px solid  black;
-    border-radius: 5px;
-    width: 120px;
-    height: 50px;
-    color: black;
-    background-color:cornflowerblue;
-    text-align:center;
 }
