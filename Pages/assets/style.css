@@ -235,14 +235,13 @@ button:hover {
   background-repeat: no-repeat;
   background-image: url(./images/Rectangle\ 47.png);
 }
-.order_now h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    text-align: center;
-    position: static;
+.order_now h2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
 }
 .order_now h4 {
   font-family: "Montserrat";
@@ -257,21 +256,21 @@ button:hover {
   display: flex;
   justify-content: center;
 }
-.end{
-    margin-top: 77px;
-    width: 1210px;
-    height: 133px;
-    margin-left: 115px;
-    margin-top: 77px;
-    background: #FFFFFF;
+.end {
+  margin-top: 77px;
+  width: 1210px;
+  height: 133px;
+  margin-left: 115px;
+  margin-top: 77px;
+  background: #ffffff;
 }
-.end p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: right;
-    letter-spacing: 0.1px;
-    color: #5C5C5C;
+.end p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
 }
