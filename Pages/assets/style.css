@@ -274,3 +274,139 @@ button:hover {
   letter-spacing: 0.1px;
   color: #5c5c5c;
 }
+
+@media (max-width: 390px){
+  .inner-menu{
+    padding: 60px;
+  }
+  .restApp{
+    height: 617px;
+    background: none;
+    color: black;
+    font-size: 12px;
+  }
+  .restApp h3{
+    color: #737373;
+    font-size: 16px;
+  }
+  .restApp h1{
+    line-height: 42px;
+    width: 391px;
+    height: 128px;
+    font-size: 36px;
+    color: #252B42;
+    text-align: center;
+  }
+  .restApp h4{
+    width: 342px;
+    height: 76px;
+    font-size: 24px;
+    color: #737373;
+    margin: 0 auto;
+  }
+  .btn-container{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  button{
+    border-color: #fa4a0c;
+    color: #fa4a0c;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .Desktop-5 h1{
+    margin-top: 115px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto;
+    color: #000;
+  }
+  .text_content{
+    display: table-header-group;
+    margin-left: 27.5px;
+    width: 357px;
+    height: 400px;
+  }
+  .text_content h3{
+    margin: 114px 0 40px 0;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .text_content h2{
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .text_content h4{
+    margin: 0 auto;
+    width: 257px;
+    height: 152px;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .frame_1{
+    display: table;
+    margin: 0 auto;
+  }
+  .frame_1 img{
+    display: table-footer-group;
+    margin: 0 auto;
+  }
+
+
+  .text_content_2{
+    display: table-header-group;
+    margin-left: 27.5px;
+    width: 357px;
+    height: 400px;
+  }
+  .text_content_2 h3{
+    margin: 44px 0 40px 0;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .text_content_2 h2{
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .text_content_2 h4{
+    margin: 0 auto;
+    width: 257px;
+    height: 152px;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .frame_2{
+    display: table;
+    margin: 0 auto;
+  }
+  .frame_2 img{
+    display: table-footer-group;
+    margin: 0 auto;
+  }
+  .order_now{
+    background: #252B42;
+  }
+  .order_now h2{
+    width: 339px;
+    height: 114px;
+    font-size: 40px;
+    line-height: 57px;
+    color: #fff;
+  }
+  .order_now h4{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 38px;
+    color: #BDBDBD;
+  }
+  #button_inline{
+    display: inline-block;
+  }
+}
