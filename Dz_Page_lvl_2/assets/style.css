@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background:#fff;
+    width: 100%;
+    height: 1073px;
+}
+header{
+    display: flex;
+    justify-content:end;
+}
+.red_block{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 0px;
+    
+    background: #CE0002;
+}
+.inner_menu, .red_block{
+    display: inline-block;
+}
+.inner_menu li{
+    display: inline-block;  
+}
+.inner_menu a{
+    text-decoration: none;
+    font-family: 'akrobat';
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
