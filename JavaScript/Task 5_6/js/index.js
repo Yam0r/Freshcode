@@ -10,7 +10,7 @@ console.log(rest2);
 
 let b2 = [1,2,3,4,[10,20[100, 200, 300], 30, 40],5 , 6];
 const[,,,,...rest3] = b;
-console.log(rest3)*/
+console.log(rest3)
 
 
 function f(objUser){
@@ -24,3 +24,11 @@ function f(objUser){
 console.log(this.experience);
 }
 f(objUser);
+let RedmiPhone = {
+    model:"Redmi Note 9",
+    CPU:"Snap Dragon",
+    diagonal:6.1,
+    style:{
+        color:grey,
+    }
+}*/
