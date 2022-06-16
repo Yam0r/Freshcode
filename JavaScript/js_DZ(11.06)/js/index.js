@@ -1,4 +1,4 @@
-/*function Task_1(notebook) {
+function Task_1(notebook) {
     var notebook = {
         Serial_num: '3V5E7EA',
         Model: 'HP 255 G8',
@@ -20,31 +20,22 @@
     };
     console.log(notebook);
 }
-Task_1();*/
-function Task_2(users) {
-    let users = {
-            User1:{
-                login:"YaSnovaSVami",
-                password:"qsderfvt"
-            },
-            User2:{
-                login:"Vilin",
-                password:"qwertyui"
-            },
-            User3:{
-                login:"Magic",
-                password:"c54d26d9"
-            },
-            User4:{
-                login:"developer",
-                password:"28124769"
-            },
-            User5:{
-                login:"Yanchik",
-                password:"Yanchik1922"
-            }
-        }
+Task_1();
+class NewUser{
+    constructor(login, password){
+        this.login = login;
+        this.password = password;
     }
-    console.log(users.login());
-Task_2();
+};
+const user1 =new NewUser("Alex","alex_01");
+const user2 =new NewUser("Alexa","alexa_02");
+const user3 =new NewUser("Sony","pana_son");
+let usersArr = [];
+usersArr.push(user1,user2,user3);
 
+const map = new Map();
+usersArr.forEach(el => map.set(el.login, el));
+for (let i = 0; i < usersArr.length; i++) {
+    map.set(usersArr[i].login, usersArr[i])
+    
+};

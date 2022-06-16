@@ -1,4 +1,4 @@
-/*let array = [1,2,100,200,3];
+let array = [1,2,100,200,3];
 
 const [a0, ...rest] = array;
 console.log(a0);
@@ -23,7 +23,7 @@ function f(objUser){
     }; 
 console.log(this.experience);
 }
-f(objUser);
+f(objPhone);
 let RedmiPhone = {
     model:"Redmi Note 9",
     CPU:"Snap Dragon",
@@ -31,4 +31,4 @@ let RedmiPhone = {
     style:{
         color:grey,
     }
-}*/
+}
