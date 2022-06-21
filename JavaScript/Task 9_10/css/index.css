@@ -1,0 +1,12 @@
+form{
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus{
+    border: 2px solid purple;
+}
