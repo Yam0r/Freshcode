@@ -1,0 +1,66 @@
+*{
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE;
+    font-size: 16px;
+  }
+.container,#btnAdd, #btnDel,#time{
+    width: 100%;
+    width: 600px;
+    height: 200px;
+    background: gold;
+    box-shadow: 0 -200px 100px -120px crimson inset;
+    border-radius: 30px;
+    animation: background 3s infinite alternate;
+  }
+  
+  @keyframes background {
+    50% {
+      background: skyblue;
+      box-shadow: 0 -200px 100px -100px yellowgreen inset;
+    }
+  }
+  
+#time{
+    margin-top: 5px;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 90px;
+    height: 40px;
+    border: none;
+}
+
+#btnAdd, #btnDel{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    border: none;
+}
+
+#task{
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+li{
+    background: rgba(255, 255, 255, 0.6);
+    max-width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.check{
+    float: right;
+}
+ul {
+    list-style: none;
+  }

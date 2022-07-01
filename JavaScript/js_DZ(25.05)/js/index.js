@@ -13,4 +13,3 @@ const worker = new Worker({
 console.log(worker);
 console.log("Зарплата за месяц: ", worker.salary);
 console.log("Зарплата за год: ", worker.salary*12);
-console.log("количество работников: ", worker.name);
