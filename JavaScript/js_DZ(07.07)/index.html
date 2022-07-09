@@ -1,108 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ChiefSlider [Example 3]</title>
-        <link rel="stylesheet" href="/examples/libs/chief-slider/chief-slider.min.css">
-        <script defer src="/examples/libs/chief-slider/chief-slider.min.js"></script>
-        <script>
-          document.addEventListener('DOMContentLoaded', function () {
-            const slider = new ChiefSlider('.slider', {
-              loop: true
-            });
-          });
-        </script>
-        <style>
-          *,
-          *::before,
-          *::after {
-            box-sizing: border-box;
-          }
-      
-          body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-              'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-              'Segoe UI Symbol';
-          }
-      
-          .container {
-            max-width: 700px;
-            margin: 0 auto;
-          }
-      
-          .slider__wrapper {
-            overflow: hidden;
-          }
-      
-          .slider__item {
-            flex: 0 0 50%;
-            max-width: 50%;
-            height: 250px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: rgba(255,255,255, 0.8);
-            font-size: 7rem;
-          }
-      
-          .slider__item:nth-child(1) {
-            background-color: #f44336;
-          }
-      
-          .slider__item:nth-child(2) {
-            background-color: #9c27b0;
-          }
-      
-          .slider__item:nth-child(3) {
-            background-color: #3f51b5;
-          }
-      
-          .slider__item:nth-child(4) {
-            background-color: #03a9f4;
-          }
-      
-          .slider__item:nth-child(5) {
-            background-color: #4caf50;
-          }
-        </style>
-      </head>
-      
-      <body>
-      
-        <div class="container">
-      
-          <div class="slider">
-            <div class="slider__wrapper">
-              <div class="slider__items">
-                <div class="slider__item">
-                  <!-- Контент 1 слайда -->
-                  1
-                </div>
-                <div class="slider__item">
-                  <!-- Контент 2 слайда -->
-                  2
-                </div>
-                <div class="slider__item">
-                  <!-- Контент 3 слайда -->
-                  3
-                </div>
-                <div class="slider__item">
-                  <!-- Контент 4 слайда -->
-                  4
-                </div>
-                <div class="slider__item">
-                  <!-- Контент 5 слайда -->
-                  5
-                </div>
-              </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script async src="./js/index.js"></script>
+    <title>Slider</title>
+</head>
+<body>
+    <div>
+        <div class="slider">
+            <div class="slide_1">
+                <img src="https://cyber.pressball.by/wp-content/uploads/2021/05/b371426d-085b-44e2-8811-f68bafae4834.jpg" alt="">
             </div>
-            <a href="#" class="slider__control" data-slide="prev"></a>
-            <a href="#" class="slider__control" data-slide="next"></a>
-          </div>
-      
+            <div class="slide_2">
+                <img src="https://greatgamer.ru/images/games_cover/cover_18657.jpg" alt="">
+            </div>
+            <div class="slide_3">
+                <img src="https://cdn.igromania.ru/mnt/articles/3/e/e/8/4/a/31207/preview/a754988561bf25b6_1920xH.jpg" alt="">
+            </div>
+            <div class="slide_4">
+                <img src="https://vgtimes.ru/uploads/posts/2020-09/8-potryasayuschih-igr-na-playstation-5-v-kotorye-vy-smozhete-sygrat-besplatno-70671.jpg" alt="">
+            </div>
+            <div class="slide_5">
+                <img src="https://cdn.mos.cms.futurecdn.net/qabvkNSuuJuMe9mKrEeBZe.jpg" alt="">
+            </div>
         </div>
-      </body>
-      
-      </html>
+        <a href="#" class="slider__control" data-slide="prev"></a>
+        <a href="#" class="slider__control" data-slide="next"></a>
+    </div>
+</body>
+</html>

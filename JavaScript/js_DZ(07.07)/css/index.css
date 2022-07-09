@@ -1,3 +1,14 @@
 body{
     background: rgb(11, 123, 208);
 }
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 700px;
+}
+.slide_1, .slide_2, .slide_3,.slide_4,.slide_5 {
+    display: flex;
+    width: 150px;
+    height: 350px;
+}
